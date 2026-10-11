@@ -1,3 +1,16 @@
+
+# Rubik's Cube Scanner
+
+## Attribution
+
+This project is based on [Aaron Wang's `rcube-scan`](https://github.com/aaron-wang/rcube-scan), an MIT-licensed OpenCV Rubik's Cube scanner.
+
+The original project provided the foundation for the webcam-based cube detection and scanning functionality. This version has been substantially modified and extended with additional cube-state processing, legality validation, error detection/recovery, structured JSON output, and integration with an external Java solver.
+
+Original author: **Aaron Wang**  
+Original repository: **https://github.com/aaron-wang/rcube-scan**
+
+The original project's MIT license and copyright notices are retained where applicable.
 # Rubik's Cube Scanner
 
 A desktop app using OpenCV that scans and solves 3x3 Rubik's Cubes using a regular webcam!
@@ -6,50 +19,6 @@ A desktop app using OpenCV that scans and solves 3x3 Rubik's Cubes using a regul
 - Recognizes Rubik's cubes on an angle, and far away from the camera
 - Outputs the solution afterwards
 - Handles both square center and circle-center Rubik's Cubes
-
-**Scan Demo:**
-
-Square center:
-<!-- [gif2] -->
-![GIF-demo-2-square-conde](https://user-images.githubusercontent.com/66176554/149688477-2ee99327-e4c7-482d-841d-731d89fc36d2.gif)
-
-Circle center:
-<!-- [gif1] -->
-![GIF-demo-1-circle](https://user-images.githubusercontent.com/66176554/149688131-62ae2dcd-8489-4e81-a506-10a864f11815.gif)
-
-
-<!--**Color Detection:**-->
-
-<!--[gif2]-->
-
-<!--**Rotation Recognition**-->
-
-<!--[gif3]-->
-
-<!--**Custom Circle/Square (Center) Modes:**-->
-
-<!--[gif4a]-->
-
-<!--[gif4b]-->
-
-<!--[insert some images here]-->
-
-**Interface example:**
-
-<!-- [image 1] -->
-![image-demo-1](https://user-images.githubusercontent.com/66176554/149688160-c99d6892-bbfe-4ca7-b270-c8ee029666f4.png)
-
-
-**Solution output (different cube from above):**
-
-<!-- [image 2] -->
-
-![image-demo-2](https://user-images.githubusercontent.com/66176554/149688172-5768c4db-ee6e-4ee8-912d-8e634aa5c228.png)
-
-
-<!-- **Table of contents:**
-
-[toc] -->
 
 ## Installation
 
