@@ -13,6 +13,15 @@ Original repository: **https://github.com/aaron-wang/rcube-scan**
 The original project's MIT license and copyright notices are retained where applicable.
 # Rubik's Cube Scanner
 
+## Attribution
+
+This project is based on [Aaron Wang's `rcube-scan`](https://github.com/aaron-wang/rcube-scan), an MIT-licensed OpenCV Rubik's Cube scanner.
+
+The original project provided the foundation for the webcam-based cube detection and scanning functionality. This version has been substantially modified and extended with additional cube-state processing, legality validation, error detection/recovery, structured JSON output, and integration with an external Java solver.
+
+Original author: **Aaron Wang**  
+Original repository: **https://github.com/aaron-wang/rcube-scan**
+
 A desktop app using OpenCV that scans and solves 3x3 Rubik's Cubes using a regular webcam!
 
 - Supports scanning within seconds
